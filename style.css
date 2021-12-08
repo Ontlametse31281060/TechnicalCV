@@ -238,18 +238,31 @@ a{
 
 }
 
-#about .col-right h2{
+.about_d{
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 10px;
+    font-style: italic;
 
 }
 
-#about .col-right p{
-    font-size: xx-large;
+
+.info_d{
+    font-size: 1.8rem;
     font-weight: 350;
     margin-bottom: 20px;
+}
+
+.aboutme_d{
+    margin-top: 20px;
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
 }
 
 #about .col-right .cta{
@@ -475,6 +488,8 @@ a{
 	}
 
     #about .col-right p{
+        font-size: 12rem;
+        color: blue;
         margin-bottom: 20px;
     }
 
@@ -501,14 +516,16 @@ a{
 		justify-content: center;
 		min-width: 20vh;
 	}
-	#contact .contact-items {
+	#contact .contact-items 
+    {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
 	}
-	#contact .contact-item {
+	#contact .contact-item 
+    {
 		width: 30%;
 		margin: 0;
 		flex-direction: row;
